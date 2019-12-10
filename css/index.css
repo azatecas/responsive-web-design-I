@@ -36,7 +36,8 @@ body {
 }
 /* ol, ul {
 	list-style: none; */
-}
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -549,18 +550,25 @@ footer {
         /* justify-content: space-evenly; */
         align-items: center;
         
-        margin-top: 0;
+        margin: 0;
         padding: 0;
         
         
         flex-wrap: wrap;
-        width: 500px;
+        width: 100%;
         /* background-color: red; */       
         
     }
+    .nav-logo {
+        border-bottom: 1px solid grey;
+        padding:3vh;
+        margin:0;
+        width: 100%;
+
+    }
     .nav-logo img{
         height: 5vh;
-        
+             
 
     }
 
@@ -572,17 +580,20 @@ footer {
         padding:0;
         margin:0;
         width: 100%;
+        background-color: red;
+
         
         
     }
     .nav-links a{
-        border: 1px solid gray;
+        border-bottom: 1px solid gray;
         font-size:1.5rem;
         justify-content: space-between;
         flex-basis:100% ;
         width: 100%;
         text-align: center;
         padding: 2vh 0;
+        margin: 0;
     }
     
     .banner-title{
