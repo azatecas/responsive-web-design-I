@@ -389,7 +389,7 @@ footer {
         
     }
     h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     h3 {
         font-size: 1.5rem;
@@ -418,6 +418,7 @@ footer {
         
         
     }
+
     nav div{
         justify-content: space-around;
         width: 100%;
@@ -488,6 +489,7 @@ footer {
 
     
     }
+    
 
     .bottom {
         padding: 0;
@@ -502,12 +504,21 @@ footer {
         
         /* S */
         margin-top: 2vh;
+        margin-bottom: 4vh;
         text-align: left;
         justify-content: space-between;
 
     }
     section{
         padding: 0% 0%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 2vh 0 1vh 0;
+        padding: 1vh;
+        line-height: 1;
     }
 
 
@@ -519,5 +530,106 @@ footer {
 
 
 @media (max-width: 500px){
+    p {
+        font-size: 1.1rem;
+        
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+
+
+
+    nav {
+        position: relative;
+        flex-direction: column-reverse;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        
+        margin-top: 0;
+        padding: 0;
+        
+        
+        flex-wrap: wrap;
+        width: 500px;
+        /* background-color: red; */       
+        
+    }
+    .nav-logo img{
+        height: 5vh;
+        
+
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid blue; */
+        padding:0;
+        margin:0;
+        width: 100%;
+        
+        
+    }
+    .nav-links a{
+        border: 1px solid gray;
+        font-size:1.5rem;
+        justify-content: space-between;
+        flex-basis:100% ;
+        width: 100%;
+        text-align: center;
+        padding: 2vh 0;
+    }
     
+    .banner-title{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 100%;
+        line-height: 8vh;
+    }
+    .banner button {
+        width: 18vh;
+        height: 4vh;
+        font-size: 1.8vh;
+        padding: 0;
+        margin: 0 0 3vh 0;
+    }
+
+    .intro-text{
+        flex-direction: column;
+        width: 100%;
+    }
+    .intro-text section{
+        /* flex-direction: column; */
+        width: 100%;
+        padding: 1vh 0;
+    }
+    .bottom {
+        flex-direction: column;
+
+
+    }
+    .bottom section {
+        width: 100%;
+        padding:0;
+        margin: 2vh 0;
+    }
+    .copyright {
+        margin-top: 2vh;
+    }
+
+
+
+
+
+
+
+
 }
